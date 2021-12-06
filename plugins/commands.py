@@ -37,7 +37,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('♻️ Share Me To Your Friends, url='https://t.me/share/url?url=https://t.me/Files_search_bot')
+            InlineKeyboardButton('♻️ Share Me To Your Friends, url=f'https://t.me/share/url?url=https://t.me/Files_search_bot')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             InlineKeyboardButton('🤖 Updates', url='https://t.me/moviehube0')
