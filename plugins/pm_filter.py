@@ -691,7 +691,7 @@ async def auto_filter(client, msg, spoll=False):
          a = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     if spoll:
         await msg.message.delete()
-    await asyncio.sleep(30)
+    await asyncio.sleep(120)
     await a.delete()
 
 async def advantage_spell_chok(msg):
