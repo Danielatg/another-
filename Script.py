@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
-<b>🤖 I Am Simple Bot\n🔀 I Can Search For Movies\n📁 You Can Send ME Any Movie_Name\n🤩 Then Stand Back And See The Magic\n💬 U Can Also Add Me To Groups..</b>"""
+<b>🤖 I Am Simple Bot\n🔀 I Can Search For Movies\n📁 You Can Send ME Any Movie_Name\n🤩 Then Stand Back And See The Magic\n💬 U Can Also Add Me To Groups..</b>\n\n ©️MᴀɪɴᴛᴀɪɴᴇD Bʏ<a href=https://t.me/Mdop269>MDOP</a>"""
 
 
     HELP_TXT = """𝙷𝙴𝚈 {}
