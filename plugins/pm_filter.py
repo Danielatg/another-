@@ -686,7 +686,7 @@ async def auto_filter(client, msg, spoll=False):
             a = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         except Exception as e:
             logger.exception(e)
-           a =  await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
+            a =  await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     else:
          a = await message.reply_text(cap, reply_markup=InlineKeyboardMarkup(btn))
     if spoll:
